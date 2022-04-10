@@ -1,0 +1,5 @@
+cria uma pasta
+git bash here
+vai abrir o cmd do git
+git init
+cria uma arquivo e coloca na pasta
