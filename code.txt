@@ -27,7 +27,8 @@ para criar uma branch: git + nome da branch ex: git DEV
 para ver se foi criado corretamente: git branch
 para mudar de branch: git checkout + nome da branch. Ex: git checkout DEV
 para ver se deu certo: git branch Se tiver dado certo, a branch DEV vai ficar verde e com um asterisco do lado
-teste
+se tiver algum arquivo alterado na pasta e quiser adicionar nessa branch nova, git status, git add . , git commit -m "nome da alteração", git push.
+Provavelmente vai dar erro e pedir para inserir esse comando: git push --set-upstream origin DEV (enter)
 
 
 
