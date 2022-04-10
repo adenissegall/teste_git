@@ -33,7 +33,10 @@ para alterar um arquivo de uma branch puxando o arquivo de outra branch, primeir
 	então se quero colocar um código do ambiente de dev, em prd, preciso entrar na branch de prd e digitar "git pull", para carregar todas as 
 	versões mais recentes da branch e em seguida, ex: "git merge dev". Esse comando vai pegar o arquivo com o mesmo nome da branch dev e alterar o 
 	arquivo de mesmo nome da branch que eu estou, que no caso é prd.
-se quiser sair para uma branch que acabou de criar: git checkout -b nome_da_nova_branch 
+se quiser sair para uma branch que acabou de criar: git checkout -b nome_da_nova_branch
+para criar um arquivo git ignore e inserir arquivos ou pastas que não se quer subir para o github: touch .gitignore
+entra no arquivo e insere o nome da pasta como: nomepasta/ ou o nome do arquivo como arquivo.txt e salva
+digita o comando git status novamente e ve se parou de aparecer
 
 
 
