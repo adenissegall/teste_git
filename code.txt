@@ -27,6 +27,7 @@ para criar uma branch: git + nome da branch ex: git DEV
 para ver se foi criado corretamente: git branch
 para mudar de branch: git checkout + nome da branch. Ex: git checkout DEV
 para ver se deu certo: git branch Se tiver dado certo, a branch DEV vai ficar verde e com um asterisco do lado
+teste
 
 
 
