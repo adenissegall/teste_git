@@ -29,6 +29,10 @@ para mudar de branch: git checkout + nome da branch. Ex: git checkout DEV
 para ver se deu certo: git branch Se tiver dado certo, a branch DEV vai ficar verde e com um asterisco do lado
 se tiver algum arquivo alterado na pasta e quiser adicionar nessa branch nova, git status, git add . , git commit -m "nome da alteração", git push.
 Provavelmente vai dar erro e pedir para inserir esse comando: git push --set-upstream origin DEV (enter)
+para alterar um arquivo de uma branch puxando o arquivo de outra branch, primeiro é preciso estar na branch que vai receber a alteração,
+	então se quero colocar um código do ambiente de dev, em prd, preciso entrar na branch de prd e digitar "git merge dev".
+	Esse comando vai pegar o arquivo com o mesmo nome da branch dev e alterar o arquivo de mesmo nome da branch que eu estou, que no caso é
+	prd.
 
 
 
