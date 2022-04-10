@@ -12,6 +12,30 @@ se não tiver cadastrado a conta ainda: git config --global user.email "adenisse
 quando já tiver setado o usuário do github: git commit -m "commit inicial"
 para inserir os arquivos no github: git push
 mas vai pedir para especificar o local, então vai no github manualmente e cria um repositorio
+pega o link do repositorio e insere o seguinte comando: git remote add origin https://github.com/adenissegall/teste_git
+valida com o navegador se for preciso, autorizar
+geralmente o arquivo cai na branch master, então ao fazer isso, acessa a "main" e clica em master pra ver se foi
+se o arquivo foi alterado, é só dar o comando git status para ver se tem arquivo alterado
+se sim, "git add ." (enter), 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
