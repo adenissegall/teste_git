@@ -3,3 +3,46 @@ git bash here
 vai abrir o cmd do git
 git init
 cria uma arquivo e coloca na pasta
+no bash do git, "git status" para ver o que já foi comitado dos arquivos da pasta
+vai mostrar todos os arquivos que não foram preparados para o versionamento
+para incluiir no versionsamento "git add" + o nome do arquivo, ex: git add "code.txt"
+para incluir vários (todos) os documentos da pasta no versionamento: "git add ." (sem as aspas)
+para enviar os arquivos para o github, ex: git commit -m "commit inicial"
+se não tiver cadastrado a conta ainda: git config --global user.email "adenissegall@live.com", aperta enter e depois: git config --global user.name "adenissegall"
+quando já tiver setado o usuário do github: git commit -m "commit inicial"
+para inserir os arquivos no github: git push
+mas vai pedir para especificar o local, então vai no github manualmente e cria um repositorio
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
